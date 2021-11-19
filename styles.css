@@ -1,0 +1,34 @@
+/* Custom Styles */
+
+:root {
+  /* Font Family */
+  --ff--: Outfit, sans-serif;
+
+  /* Font Weight */
+  --fw-bold: 600;
+  --fw-med: 400;
+  --fw-light: 300;
+
+  /* Font Size */
+  --fs-para: 1.25rem;
+
+  /* Media Queries Layouts */
+  --mobile: 375px;
+  --desktop: 1440px;
+
+  /* Colors */
+  --clr-primary-softblue: hsl(215, 51%, 70%);
+  --clr-accent-cyan: hsl(178, 100%, 50%);
+  --clr-neutral-darkblue-main: hsl(217, 54%, 11%);
+  --clr-card-verydarkblue: hsl(216, 50%, 16%);
+  --clr-line-verydarkblue: hsl(215, 32%, 27%);
+  --clr-light: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--clr-neutral-darkblue-main);
+}
+
+.container {
+  background-color: var(--clr-card-verydarkblue);
+}
