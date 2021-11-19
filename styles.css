@@ -27,8 +27,93 @@
 
 body {
   background-color: var(--clr-neutral-darkblue-main);
+  font-family: var(--ff--);
 }
 
 .container {
   background-color: var(--clr-card-verydarkblue);
+  margin: 3em 1em;
+  padding: 0.7em;
+  border-radius: 20px;
+}
+
+.nft-image {
+  width: 100%;
+  border-radius: 1em;
+  padding-top: 1em;
+}
+
+/* Typography */
+h1 {
+  color: var(--clr-light);
+  font-weight: var(--fw-bold);
+  font-size: 1.25rem;
+}
+
+.text-block {
+  padding: 1em;
+  padding-bottom: 0;
+}
+
+p,
+.footer {
+  color: var(--clr-primary-softblue);
+  font-weight: var(--fw-light);
+  font-size: 1rem;
+  margin: 0;
+}
+.footer {
+  padding-left: 1.2em;
+}
+
+.image-block {
+  width: 90%;
+  margin: 0 auto;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+  margin: 0;
+}
+
+.author {
+  padding-left: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 0.7em;
+  padding-bottom: 1em;
+}
+
+.author-img {
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+span {
+  color: var(--clr-light);
+}
+
+h3 {
+  color: var(--clr-accent-cyan);
+  font-weight: var(--fw-med);
+  margin: 0;
+  font-size: 1rem;
+}
+
+.attribution {
+  margin-bottom: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+hr {
+  color: var(--clr-line-verydarkblue);
+  width: 90%;
+  font-weight: 0.1em;
+  margin-bottom: 1em;
+  border: 0.5px solid var(--clr-line-verydarkblue);
 }
